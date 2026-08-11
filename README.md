@@ -1,6 +1,6 @@
 # Soul Fire Burning
 
-Dual-sided Minecraft mod (Fabric + NeoForge) for Minecraft 26.2.
+Dual-sided Minecraft mod (Fabric + NeoForge) for Minecraft 26.1.2.
 
 Makes soul fire behave more consistently: entities ignited by soul fire burn with **blue flames**, and that state can propagate through burning arrows and burning zombies.
 
@@ -10,7 +10,7 @@ Makes soul fire behave more consistently: entities ignited by soul fire burn wit
 - Soul fire mark when standing in soul fire
 - Propagation via burning arrows and burning zombies
 - Optional **enhanced soul fire damage** (2 damage/s while burning) — **default off**
-- Optional **soul campfire marking** (Soul Fire'd style: mark soul fire on contact, **no ignition**) — **default off**
+- Optional **soul campfire marking** (mark soul fire on contact, **no ignition**) — **default off**
 - YACL config screen (Mod Menu / NeoForge mods screen)
 - English and Simplified Chinese
 

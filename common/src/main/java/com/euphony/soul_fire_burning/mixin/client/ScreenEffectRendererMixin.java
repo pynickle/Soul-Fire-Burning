@@ -24,7 +24,7 @@ public abstract class ScreenEffectRendererMixin {
      * First-person fire overlay uses soul-fire texture when the player is soul-fire marked.
      */
     @Redirect(
-            method = "submit",
+            method = "renderScreenEffect",
             at = @At(
                     value = "INVOKE",
                     target = "Lnet/minecraft/client/resources/model/sprite/SpriteGetter;get(Lnet/minecraft/client/resources/model/sprite/SpriteId;)Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;"))

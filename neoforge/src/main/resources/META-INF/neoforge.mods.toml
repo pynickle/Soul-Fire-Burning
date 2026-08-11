@@ -18,14 +18,14 @@ config = "soul_fire_burning.mixins.json"
 [[dependencies.soul_fire_burning]]
 modId = "neoforge"
 type = "required"
-versionRange = "[26.2-beta,)"
+versionRange = "[26.1.2,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.soul_fire_burning]]
 modId = "minecraft"
 type = "required"
-versionRange = "[26.2,27)"
+versionRange = "[26.1.2,26.2)"
 ordering = "NONE"
 side = "BOTH"
 
