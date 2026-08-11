@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "com.euphony.soul_fire_burning.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "minVersion": "0.8",
+  "mixins": [
+    "AbstractArrowMixin",
+    "BaseFireBlockMixin",
+    "CampfireBlockMixin",
+    "EntityMixin",
+    "ZombieMixin"
+  ],
+  "client": [
+    "client.EntityRendererMixin",
+    "client.EntityRenderStateMixin",
+    "client.FlameFeatureRendererMixin",
+    "client.ScreenEffectRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

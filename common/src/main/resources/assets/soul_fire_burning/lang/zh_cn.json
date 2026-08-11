@@ -1,0 +1,10 @@
+{
+  "modmenu.nameTranslation.soul_fire_burning": "灵魂火燃烧",
+  "modmenu.descriptionTranslation.soul_fire_burning": "让灵魂火以蓝色火焰燃烧，并提供可选的增强伤害。",
+  "config.soul_fire_burning.title": "灵魂火燃烧",
+  "config.soul_fire_burning.category.gameplay": "玩法",
+  "config.soul_fire_burning.option.enhancedSoulFireDamage": "增强灵魂火伤害",
+  "config.soul_fire_burning.option.enhancedSoulFireDamage.desc": "灵魂火燃烧时每秒造成 2 点伤害，而不是 1 点。",
+  "config.soul_fire_burning.option.soulCampfireEffects": "灵魂营火标记",
+  "config.soul_fire_burning.option.soulCampfireEffects.desc": "踩到点燃的灵魂营火时标记为灵魂火。不会额外点燃实体。"
+}

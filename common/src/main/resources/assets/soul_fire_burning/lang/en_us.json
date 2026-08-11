@@ -1,0 +1,10 @@
+{
+  "modmenu.nameTranslation.soul_fire_burning": "Soul Fire Burning",
+  "modmenu.descriptionTranslation.soul_fire_burning": "Makes soul fire burn with blue flames and optional enhanced damage.",
+  "config.soul_fire_burning.title": "Soul Fire Burning",
+  "config.soul_fire_burning.category.gameplay": "Gameplay",
+  "config.soul_fire_burning.option.enhancedSoulFireDamage": "Enhanced soul fire damage",
+  "config.soul_fire_burning.option.enhancedSoulFireDamage.desc": "Soul fire deals 2 damage per second while burning, instead of 1.",
+  "config.soul_fire_burning.option.soulCampfireEffects": "Soul campfire marking",
+  "config.soul_fire_burning.option.soulCampfireEffects.desc": "Standing on a lit soul campfire marks you as soul fire. Does not ignite entities."
+}
