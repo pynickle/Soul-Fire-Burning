@@ -73,7 +73,7 @@
           "environments": ["client", "server"]
         },
         "modrinth": {
-          "project_id": "uWsLN21d",
+          "project_id": "QXEVzSHy",
           "version_number": "${ nextRelease.version }+${ loader }"
         }
       }
