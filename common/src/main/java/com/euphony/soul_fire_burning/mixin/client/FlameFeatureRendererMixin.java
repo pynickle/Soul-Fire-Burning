@@ -8,6 +8,7 @@ import net.minecraft.client.renderer.feature.FlameFeatureRenderer;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.client.resources.model.sprite.AtlasManager;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyVariable;
 
@@ -33,6 +34,7 @@ public abstract class FlameFeatureRendererMixin {
         return soulFireBurning$resolve(original, submit, false);
     }
 
+    @Unique
     private static TextureAtlasSprite soulFireBurning$resolve(
             TextureAtlasSprite original, FlameFeatureRenderer.Submit submit, boolean first) {
         if (submit.entityRenderState() instanceof SoulFireRenderState state && state.soulFireBurning$isSoulFire()) {
