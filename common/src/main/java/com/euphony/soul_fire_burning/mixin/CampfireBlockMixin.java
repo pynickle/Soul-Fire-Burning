@@ -14,11 +14,6 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
 
-/**
- * Soul Fire'd–style campfire handling: no ignition (vanilla never lights you from
- * campfires). When enabled, soul campfire contact damage marks the entity as
- * soul-fire burning so continuous burn / visuals stay consistent if already on fire.
- */
 @Mixin(CampfireBlock.class)
 public abstract class CampfireBlockMixin {
     @Redirect(
