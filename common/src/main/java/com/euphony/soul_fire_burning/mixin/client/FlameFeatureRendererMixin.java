@@ -17,7 +17,7 @@ import org.spongepowered.asm.mixin.injection.ModifyVariable;
 public abstract class FlameFeatureRendererMixin {
     @ModifyVariable(method = "renderFlame", at = @At("STORE"), ordinal = 0)
     private TextureAtlasSprite soulFireBurning$sprite0(
-            TextureAtlasSprite original,
+            TextureAtlasSprite fire1,
             PoseStack.Pose pose,
             MultiBufferSource bufferSource,
             EntityRenderState state,
@@ -26,7 +26,7 @@ public abstract class FlameFeatureRendererMixin {
         if (state instanceof SoulFireRenderState soul && soul.soulFireBurning$isSoulFire()) {
             return atlasManager.get(SoulFireSprites.SOUL_FIRE_0);
         }
-        return original;
+        return fire1;
     }
 
     @ModifyVariable(method = "renderFlame", at = @At("STORE"), ordinal = 1)
